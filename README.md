@@ -68,7 +68,7 @@ Normally, JSON **doesn't** support comments in JSON Files, but you can add new *
 		"model": "minicoin",
 		"name": "Coin",
 		"stack_max": 10000
-   }
+   	}
    
 }
 ```
@@ -94,7 +94,7 @@ Normally, JSON **doesn't** support comments in JSON Files, but you can add new *
 		"model": "minicoin",
 		"name": "Coin",
 		"stack_max": 10000
-   }
+   	}
    
 }
 ```
