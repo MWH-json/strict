@@ -3,7 +3,7 @@
 
 Mini World Plugin Style Guide for **strict** Mini Developers!
 
-***just to clarify, this style guide will be our now style guide for future plugin pack, our old plugin packs will not be updated with this style guide because of time***
+***just to clarify, this style guide will be our new style guide for future plugin pack, our old plugin packs will not be updated with this style guide because of time***
 
 ## Overview
 
