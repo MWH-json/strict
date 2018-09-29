@@ -123,7 +123,7 @@ Normally, JSON **doesn't** support comments in JSON Files, but you can add new *
 		"model": "minicoin",
 		"name": "Coin",
 		"stack_max": 10000
-   }
+   	}
    
 }
 ```
@@ -140,7 +140,7 @@ Normally, JSON **doesn't** support comments in JSON Files, but you can add new *
 		"version":"1"
 	}, 
   
-  "property":{
+  	"property":{
 		"copyid":10100,
 		"describe":"Hello World!",
 		"icon":"minicoin",
@@ -148,7 +148,7 @@ Normally, JSON **doesn't** support comments in JSON Files, but you can add new *
 		"model":"minicoin",
 		"name":"Coin",
 		"stack_max":10000
-   }
+   	}
    
 }
 ```
@@ -177,7 +177,7 @@ Your Plugins should have their objects separated by a line break.
 		"model": "minicoin",
 		"name": "Coin",
 		"stack_max": 10000
-   }
+   	}
    
 }
 ```
@@ -200,7 +200,7 @@ Your Plugins should have their objects separated by a line break.
 		"model": "minicoin",
 		"name": "Coin",
 		"stack_max": 10000
-   }
+   	}
 }
 ```
 
@@ -212,13 +212,15 @@ Your Plugins should have a custom File Name that replaces the one that is genera
 ```json
 {
   "foreign_ids": [],
+  
 	"mod_desc": {
 		"author": "1000872134",
-      "//": "All good, the filename is hello-world!",
+      		"//": "All good, the filename is hello-world!",
 		"filename": "hello-world",
 		"uuid": "87e5bf17-40b0-47ab-8388-0db79a120c76",
 		"version": "1"
 	},
+	
 	"property": {
 		"copyid": 10100,
 		"describe": "Hello World!",
@@ -227,7 +229,8 @@ Your Plugins should have a custom File Name that replaces the one that is genera
 		"model": "minicoin",
 		"name": "Coin",
 		"stack_max": 10000
-   }
+   	}
+   
 }
 ```
 
@@ -238,7 +241,7 @@ Your Plugins should have a custom File Name that replaces the one that is genera
   
 	"mod_desc": {
 		"author": "1000872134",
-      "//": "Bad, bad, bad! The filename has the automatic generated filename.",
+      		"//": "Bad, bad, bad! The filename has the automatic generated filename.",
 		"filename": "2943803856",
 		"uuid": "87e5bf17-40b0-47ab-8388-0db79a120c76",
 		"version": "1"
@@ -252,7 +255,7 @@ Your Plugins should have a custom File Name that replaces the one that is genera
 		"model": "minicoin",
 		"name": "Coin",
 		"stack_max": 10000
-   }
+   	}
    
 }
 ```
